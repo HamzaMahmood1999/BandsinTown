@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:import/react"
+  ],
+  "rules": {
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": [
+          "src/"
+        ]
+      }
+    ]
+  }
+}
