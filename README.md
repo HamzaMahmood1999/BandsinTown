@@ -1,3 +1,3 @@
 # BandsinTown
 
-Simple web app to search for artists and their shows 
+A react based web app which uses the BandsinTown API to search for musicians and their upcoming shows 
