@@ -6,7 +6,7 @@ const SearchBox = props => (
     <div className="card">
       <div className="card-content">
         <div className="field has-addons">
-          <div className="control is-expanded ">
+          <div className="control is-expanded has-icons-left has-icons-right">
             <input
               className="input is-rounded "
               type="text"
