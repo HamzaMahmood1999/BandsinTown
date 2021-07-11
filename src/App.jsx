@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 
 import SearchBox from './components/SearchBox';
 import BandInfo from './components/BandInfo';
-import Navbar from './components/Navbar';
 import Notification from './components/Notification';
-import background from "./concert.jpg";
 import './App.css'
 
 const axios = require('axios');
