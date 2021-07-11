@@ -42,7 +42,8 @@ const BandInfo = (props) => {
           <header className="card-header">
             <p className="card-header-title">Next Events ({props.info.upcoming_event_count})</p>
           </header>
-          <div className="card-content">
+          <div style={{overflowY:'scroll',
+                     height:'480px'}} className="card-content">
             {events}
           </div>
         </nav>

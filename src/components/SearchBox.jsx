@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const SearchBox = props => (
   <div className="container">
-    <div className="card">
+    <div style={{backgroundColor:'#FFFFFF50'}} className="card">
       <div className="card-content">
         <div className="field has-addons">
           <div className="control is-expanded has-icons-left has-icons-right">

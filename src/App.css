@@ -1,0 +1,9 @@
+html {
+  background-image: url("./concert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: '#FFFFFF00'; */
+  background-position-x: center;
+  background-position-y: cover;
+  background-attachment: fixed;
+}

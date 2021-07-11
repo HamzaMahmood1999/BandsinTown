@@ -4,6 +4,8 @@ import SearchBox from './components/SearchBox';
 import BandInfo from './components/BandInfo';
 import Navbar from './components/Navbar';
 import Notification from './components/Notification';
+import background from "./concert.jpg";
+import './App.css'
 
 const axios = require('axios');
 
@@ -86,8 +88,8 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Navbar />
+      <div >
+        {/* <Navbar /> */}
         <br />
         <div className="container">
           {this.renderNotifications()}
