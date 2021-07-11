@@ -26,12 +26,12 @@ const BandInfo = (props) => {
           <footer className="card-footer">
             <p className="card-footer-item">
               <span>
-                View on <a href={props.info.url}>Bands in Town</a>
+                View on <a href={props.info.url} target="_blank">Bands in Town</a>
               </span>
             </p>
             <p className="card-footer-item">
               <span>
-                View on <a href={props.info.facebook_page_url}>Facebook</a>
+                View on <a href={props.info.facebook_page_url} target="_blank">Facebook</a>
               </span>
             </p>
           </footer>
