@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import SearchBox from './components/SearchBox';
 import BandInfo from './components/BandInfo';
 import Notification from './components/Notification';
-import './App.css'
+import './App.css';
 
 const axios = require('axios');
 
